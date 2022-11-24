@@ -1,5 +1,4 @@
 import javax.swing.JOptionPane;
-import java.text.*;
 
 public class MusicWorldApp {
 	static final double TAX_RATE = .0625 ;
@@ -15,9 +14,15 @@ public class MusicWorldApp {
 		double taxRate = TAX_RATE*100;
 		double total = subTotal + (subTotal*TAX_RATE);
 		
-		JOptionPane.showMessageDialog(null, "Summary of the transacttion:" + "\n\nCD ID: "+ cdID 
-					+ "\nCD Title: "+ cdTitle + "\nCD Unit Price:$"+cdPrice+"\nCD Quantity: " + cdQuantity +"\n\nSubtotal: $" 
-					+ subTotal + "\nTax rate: "+taxRate+"%"+"\nTotal: $"+total+ "\n\nEnd of Program");
+		JOptionPane.showMessageDialog(null, "Summary of the transacttion:"
+					+ "\n\nCD ID: "+ cdID 
+					+ "\nCD Title: "+ cdTitle + 
+					"\nCD Unit Price:$"+cdPrice+
+					"\nCD Quantity: " + cdQuantity +
+					"\n\nSubtotal: $" + subTotal +
+					"\nTax rate: "+taxRate+"%"+
+					"\nTotal: $"+total+
+					"\n\nEnd of Program");
 		
 	}
 
