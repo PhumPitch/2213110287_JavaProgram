@@ -30,14 +30,14 @@ public class Lab303 {
 		}
 		else {
 				int thousandWithdraw = numberWithDraw/1000;
-				int fhundredWithdraw = (numberWithDraw - thousandWithdraw*1000)/500;
-				int hundredWithdraw = (numberWithDraw - ((thousandWithdraw*1000)+(fhundredWithdraw*500)))/100;
+				int fhundredWithdraw = (numberWithDraw%1000)/500; //17900 900/500 1
+				int hundredWithdraw = (numberWithDraw%500)/100; //17900 400/100 4
 			
 			JOptionPane.showMessageDialog(null,			
 					"You withdraw " + frm.format(numberWithDraw)+" baht."+
 					"\n1,000 = "+ thousandWithdraw+
 					"\n500 = "+ fhundredWithdraw+
-					"\n100 = " + hundredWithdraw);
+					"\n100 = " + hundredWithdraw);   
 			
 			
 		}
