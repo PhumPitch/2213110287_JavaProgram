@@ -1,4 +1,5 @@
+Date : 08-DEC-2022
 Studetn ID : 2213110287
 Fullname : Pitchayaphum Rukjring
 AKA : Phum
-ClassDetail : String Methods and Defined Method
+ClassDetail : User-Defined Method with String
