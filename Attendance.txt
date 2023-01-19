@@ -2,4 +2,4 @@ Date : 19-JAN-2023
 Studetn ID : 2213110287
 Fullname : Pitchayaphum Rukjring
 AKA : Phum
-ClassDetail : Encapsulation
+ClassDetail : Encapsulation 
