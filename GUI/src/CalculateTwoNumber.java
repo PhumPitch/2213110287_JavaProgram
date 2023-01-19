@@ -130,15 +130,21 @@ public class CalculateTwoNumber extends JFrame {
 					DecimalFormat frmNumber = null;
 					if (oneDigit.isSelected()) {
 						frmNumber = new DecimalFormat("#,###.0");
+						if(chkDialogbox.isSelected()) {
+							JOptionPane.showMessageDialog(null, "Result is : "+(frmNumber.format(sum)));
+						}
 
 					} else if (twoDigit.isSelected()) {
 						frmNumber = new DecimalFormat("#,###.00");
+						if(chkDialogbox.isSelected()) {
+							JOptionPane.showMessageDialog(null, "Result is : "+(frmNumber.format(sum)));
+						}
 					}
 					lblResult.setText(frmNumber.format(sum));
 					//JCHKBox
-					if(chkDialogbox.isSelected()) {
-						JOptionPane.showMessageDialog(null, "Result is : "+sum);
-					}
+					//if(chkDialogbox.isSelected()) {
+					//	JOptionPane.showMessageDialog(null, "Result is : "+(frmNumber.format(sum)));
+					//}
 					
 				}
 			}
