@@ -22,7 +22,7 @@ public class BookDemo2 {
 				"Book Title : " + book.getTitle()+
 				"\nAuthor name : " + book.getAuthor().getName()+" ("+ book.getPage() +" page)"+
 				"\nAuthor e-mail : "+  book.getAuthor().getEmail());
-		
+		//
 		
 	}
 
