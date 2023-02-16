@@ -1,5 +1,5 @@
-Date : 09-FEB-2023
+Date : 16-FEB-2023
 Studetn ID : 2213110287
 Fullname : Pitchayaphum Rukjring
 AKA : Phum
-ClassDetail : Exception + File (W / R)
+ClassDetail : File (W / R)
