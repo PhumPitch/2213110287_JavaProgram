@@ -13,7 +13,7 @@ public class FictionDemo1 {
 
 		System.out.print("Enter Author Name : ");
 		String author = scan.nextLine();
-		
+		scan.nextLine();
 		System.out.print("Enter e-Mail : ");
 		String email = scan.nextLine();
 		
